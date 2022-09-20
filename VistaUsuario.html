@@ -1,0 +1,63 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="C:\Users\gkmz\OneDrive\Documentos\MinTIC\Ciclo3\Sprints\StyleSolo.css"/>
+</head>
+
+<body>
+    <form style="margin-left:20px;">
+    <p class="out">Para solicitar una cita médica complete la siguiente información:</p>
+
+    <div class="super">
+        <select id="medico">
+            <option value = "">Seleccione a Su Médico</option>
+            <option value = "id1">Nomber1_Apellido1</option>
+            <option value = "id2">Nomber2_Apellido2</option>
+        </select>
+        <span class="custom-arrow"></span>
+    </div>
+
+    <span class="super2">
+        <select id="fecha">
+            <option calue="">Fecha</option>
+            <option value = "f1">Fecha_disponible_1</option>
+            <option value = "f2">Fecha_disponible_2</option>
+        </select>
+        <span class="custom-arrow2"></span>
+    </span>
+
+    <span class="super3">
+        <select id="hora">
+            <option calue="">Hora</option>
+            <option value = "f1">Hora_1</option>
+            <option value = "f2">Hora_2</option>
+        </select>
+        <span class="custom-arrow3"></span>
+    </span>
+
+    <div><textarea placeholder="Asunto o razón de la cita" name="asunto" class="in" id="input" style="padding: 10px; height: 80px; width: 360px; margin-bottom: 30px;;"></textarea></div>
+
+    <div><input type="text" placeholder="Número de Identificación (C.C)" name="id" class="in" id="input" style="margin-top:-2px"></div>
+    <div><input type="text" placeholder="Nombre(s)" name="nombre" class="in" id="input"></div>
+    <div><input type="text" placeholder="Apellidos" name="apellidos" class="in" id="input"></div>
+    <div><input type="text" placeholder="Correo Electrónico" name="correo" class="in" id="input"></div>
+    <div><input type="text" placeholder="Número de Celular" name="celular" class="in" id="input"></div>
+    <div><input type="text" placeholder="Dirección" name="direccion" class="in" id="inputDireccion">
+        <input type="text" placeholder="Ciudad" name="ciudad" class="in" id="inputCiudad"></div>
+    <p class="out" style="Margin-top:0px; margin-bottom: 5px;">Fecha de nacimiento:
+        <input type="text" placeholder="DD" name="dia" class="in" id="inputDia">
+        <input type="text" placeholder="MM" name="mes" class="in" id="inputMes">
+        <input type="text" placeholder="AA " name="año" class="in" id="inputAño"></p>
+
+    <span class="out" style="margin-right: 60px;">Sexo:</span>
+
+    <span class="contenedor">
+        <input type="radio" name="sexo" id="Hombre"/>
+        <label for="Hombre">Hombre</label>
+    </span>    
+
+    <span class="contenedor">
+        <input type="radio" name="sexo" id="Mujer"/>
+        <label for="Mujer">Mujer</label>
+    </span>   
+    
+    </form>
+</body>
